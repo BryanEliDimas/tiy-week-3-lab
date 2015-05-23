@@ -1,3 +1,13 @@
+/*
+
+position: static | fixed | relative | absolute
+
+display: block | inline
+
+vertical-align: specifies the vertical alignment of an inline or table-cell element.
+
+*/
+
 body {
   font-size: 18px;
   margin: 0;
@@ -18,7 +28,6 @@ body {
   background-image: url('../images/mountains.png');
   background-size: cover;
   height: 30em;
-  text-align: center;
 }
 
 .cover {
@@ -28,16 +37,7 @@ body {
 }
 
 #content {
-
-}
-
-#menu {
-  text-align: right;
-  padding-right: 10%;
-}
-
-#menu li {
-  display: inline;
+  width: 100%;
 }
 
 article {
@@ -92,13 +92,37 @@ h4 {
 
 #footer {
   clear: both;
-  /*width: 100%;*/
   height: 50px;
   padding: 10px 0;
   background-color: #233746;
   color: white;
+  font-size: small;
 }
 
 .posts .cover:hover {
   background: transparent;
+}
+
+
+nav {
+  /*display: inline;*/
+  padding-right: 0;
+  margin-right: 0;
+  float: right;
+}
+
+nav ul {
+  display: inline;
+}
+
+
+nav li {
+  display: inline;
+}
+
+#company {
+  color: white;
+  font-size: 4.5em;
+  text-align: center;
+  margin-top: 22%;
 }
