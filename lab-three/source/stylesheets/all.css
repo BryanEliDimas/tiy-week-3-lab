@@ -10,6 +10,7 @@ vertical-align: specifies the vertical alignment of an inline or table-cell elem
 
 body {
   font-size: 18px;
+  font-style: sans-serif;
   margin: 0;
   padding: 0;
   background-color: white;
@@ -66,12 +67,10 @@ img {
 
 h1 {
   color: #183956;
-  font-style: sans-serif;
 }
 
 h4 {
   color: #005EAE;
-  font-style: sans-serif;
 }
 
 #most-popular {
@@ -93,7 +92,7 @@ h4 {
 #footer {
   clear: both;
   height: 50px;
-  padding: 10px 0;
+  padding-top: 2em;
   background-color: #233746;
   color: white;
   font-size: small;
@@ -124,5 +123,5 @@ nav li {
   color: white;
   font-size: 4.5em;
   text-align: center;
-  margin-top: 22%;
+  margin-top: 18%;
 }
