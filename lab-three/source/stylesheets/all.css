@@ -1,0 +1,104 @@
+body {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.constrain {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#main {
+  width: 100%;
+}
+
+#banner {
+  background-image: url('../images/mountains.png');
+  background-size: cover;
+  height: 30em;
+  text-align: center;
+}
+
+.cover {
+  background: rgba(30, 144, 255, 0.6);
+  width: 100%;
+  height: 100%;
+}
+
+#content {
+
+}
+
+#menu {
+  text-align: right;
+  padding-right: 10%;
+}
+
+#menu li {
+  display: inline;
+}
+
+article {
+  float: left;
+}
+
+article p {
+  padding-right: 10%;
+  color: gray;
+}
+
+aside {
+
+}
+
+img {
+  /*width: 100%;*/
+}
+
+.circle {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	/* width and height can be anything, as long as they're equal */
+}
+
+h1 {
+  color: #183956;
+  font-style: sans-serif;
+}
+
+h4 {
+  color: #005EAE;
+  font-style: sans-serif;
+}
+
+#most-popular {
+  text-align: center;
+  height: 9em;
+}
+
+#most-popular h1 {
+    clear: both;
+}
+
+.posts {
+  width: 25%;
+  height: 100%;
+  float: left;
+  background-size: cover;
+}
+
+#footer {
+  clear: both;
+  /*width: 100%;*/
+  height: 50px;
+  padding: 10px 0;
+  background-color: #233746;
+  color: white;
+}
+
+.posts .cover:hover {
+  background: transparent;
+}
