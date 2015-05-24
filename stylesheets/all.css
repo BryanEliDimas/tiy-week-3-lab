@@ -1,0 +1,128 @@
+/*
+
+position: static | fixed | relative | absolute
+
+display: block | inline
+
+vertical-align: specifies the vertical alignment of an inline or table-cell element.
+
+*/
+
+
+body {
+  font-size: 18px;
+  font-style: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.constrain {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#main {
+  width: 100%;
+}
+
+#banner {
+  background-image: url('../images/mountains.png');
+  background-size: cover;
+  height: 30em;
+}
+
+.cover {
+  background: rgba(30, 144, 255, 0.6);
+  width: 100%;
+  height: 100%;
+}
+
+#content {
+  width: 100%;
+}
+
+article {
+  float: left;
+}
+
+article p {
+  padding-right: 10%;
+  color: gray;
+}
+
+aside {
+
+}
+
+img {
+  /*width: 100%;*/
+}
+
+.circle {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	/* width and height can be anything, as long as they're equal */
+}
+
+h1 {
+  color: #183956;
+}
+
+h4 {
+  color: #005EAE;
+}
+
+#most-popular {
+  text-align: center;
+  height: 9em;
+}
+
+#most-popular h1 {
+    clear: both;
+}
+
+.posts {
+  width: 25%;
+  height: 100%;
+  float: left;
+  background-size: cover;
+}
+
+#footer {
+  clear: both;
+  height: 50px;
+  padding-top: 2em;
+  background-color: #233746;
+  color: white;
+  font-size: small;
+}
+
+.posts .cover:hover {
+  background: transparent;
+}
+
+
+nav {
+  /*display: inline;*/
+  padding-right: 0;
+  margin-right: 0;
+  float: right;
+}
+
+nav ul {
+  display: inline;
+}
+
+
+nav li {
+  display: inline;
+}
+
+#company {
+  color: white;
+  font-size: 4.5em;
+  text-align: center;
+  margin-top: 18%;
+}
