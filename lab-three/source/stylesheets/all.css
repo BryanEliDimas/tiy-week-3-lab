@@ -9,7 +9,7 @@ vertical-align: specifies the vertical alignment of an inline or table-cell elem
 */
 
 body {
-  font-size: 18px;
+  font-size: 1.4em;
   font-style: sans-serif;
   margin: 0;
   padding: 0;
@@ -26,9 +26,18 @@ body {
 }
 
 #banner {
-  background-image: url('../images/mountains.png');
+  background-image: url('../images/beach.jpg');
   background-size: cover;
-  height: 30em;
+  height: 23.5em;
+  font-size: 1em;
+}
+
+nav {
+  font-size: .8em;
+}
+
+.nav {
+  font-size: .8em;
 }
 
 .cover {
@@ -43,15 +52,21 @@ body {
 
 article {
   float: left;
+  width: 60%;
 }
 
 article p {
-  padding-right: 10%;
+  /*padding-right: 10%;*/
   color: gray;
+  font-size: .8em;
 }
 
 aside {
-
+ float: left;
+ color: gray;
+ margin-left: 5%;
+ width: 35%;
+ font-size: .8em;
 }
 
 img {
@@ -75,7 +90,7 @@ h4 {
 
 #most-popular {
   text-align: center;
-  height: 9em;
+  height: 15em;
 }
 
 #most-popular h1 {
@@ -91,10 +106,10 @@ h4 {
 
 #footer {
   clear: both;
-  height: 50px;
-  padding-top: 2em;
+  height: 60px;
+  padding-top: 3em;
   background-color: #233746;
-  color: white;
+  color: silver;
   font-size: small;
 }
 
@@ -121,7 +136,22 @@ nav li {
 
 #company {
   color: white;
-  font-size: 4.5em;
+  font-size: 4.2em;
   text-align: center;
-  margin-top: 18%;
+  margin-top: 16%;
+}
+
+@media only screen
+  and (max-width: 1920px)
+  and (min-resolution: 401dpi) {
+
+  body {
+    /*font-size: 3em;*/
+  }
+
+}
+
+.verticalLine {
+    border-right: 1px solid silver;
+    margin-right: 7px;
 }
