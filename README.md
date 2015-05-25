@@ -1,4 +1,4 @@
-# The Iron Yard - Week 3 Lab: Surf and Paddle
+# Week 3 Lab: Surf and Paddle
 
 ## Description
 As a developer on the web, you will sometimes be tasked with creating an html page simply from an image file.  In this assignment, you&#x27;ll be taking an image and turning it into a functioning website.
@@ -40,3 +40,9 @@ After completing this assignment, you be able to effectively use
 * Use Middleman, and middleman's asset pipeline
 * Deploy Middleman site to GitHub pages
 * Do not use Bootstrap or another UI Framework.
+
+## Final
+
+### Link
+
+* http://bryanelidimas.github.io/tiy-week-3-lab/
