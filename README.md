@@ -40,9 +40,3 @@ After completing this assignment, you be able to effectively use
 * Use Middleman, and middleman's asset pipeline
 * Deploy Middleman site to GitHub pages
 * Do not use Bootstrap or another UI Framework.
-
-## Final
-
-### Link
-
-* http://bryanelidimas.github.io/tiy-week-3-lab/
